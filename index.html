@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Curated Living Co. | Simple guides for everyday life</title>
+<meta name="description" content="Short, practical digital guides">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Newsreader:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16302f; --mist:#e8efed; --paper:#fbfcfb; --moss:#4f7a66; --sun:#f0c15a; --line:#cfdcd7;
+    --head:'Bricolage Grotesque','Helvetica Neue',Arial,sans-serif;
+    --body:'Newsreader',Georgia,'Times New Roman',serif;
+  }
+  *{box-sizing:border-box;margin:0}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--body);font-size:1.15rem;line-height:1.65;color:var(--ink);background:var(--paper)}
+  a{color:inherit}
+  :focus-visible{outline:3px solid var(--moss);outline-offset:3px}
+  .wrap{max-width:62rem;margin:0 auto;padding:0 1.5rem}
+  header{border-bottom:1px solid var(--line)}
+  header .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:1.1rem;padding-bottom:1.1rem;gap:1rem;flex-wrap:wrap}
+  .logo{font-family:var(--head);font-weight:700;font-size:1.25rem;text-decoration:none}
+  nav a{margin-left:1.5rem;text-decoration:none;font-size:1rem}
+  nav a:hover{text-decoration:underline}
+  .hero{background:var(--mist);padding:5rem 0 4.5rem}
+  .hero h1{font-family:var(--head);font-weight:700;font-size:clamp(2.4rem,6vw,4.2rem);line-height:1.08;max-width:15ch;letter-spacing:-.02em}
+  .hero p{max-width:34rem;margin-top:1.4rem;font-size:1.3rem}
+  .btn{display:inline-block;font-family:var(--head);font-weight:500;font-size:1rem;background:var(--ink);color:var(--paper);padding:.85rem 1.5rem;border-radius:.4rem;text-decoration:none;margin-top:1.8rem}
+  .btn:hover{background:var(--moss)}
+  section{padding:4.5rem 0}
+  h2{font-family:var(--head);font-weight:700;font-size:2rem;letter-spacing:-.01em;margin-bottom:2rem}
+  .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:2rem}
+  .product{border:1px solid var(--line);border-radius:.6rem;overflow:hidden;display:flex;flex-direction:column;background:#fff}
+  .cover{height:11rem;display:flex;align-items:flex-end;padding:1.2rem;font-family:var(--head);font-weight:700;font-size:1.5rem;line-height:1.15}
+  .cover.mind{background:var(--moss);color:#fff}
+  .cover.dog{background:var(--sun);color:var(--ink)}
+  .product .info{padding:1.4rem;display:flex;flex-direction:column;gap:.8rem;flex:1}
+  .product h3{font-family:var(--head);font-size:1.2rem;font-weight:700;line-height:1.25}
+  .price{font-family:var(--head);font-weight:700;font-size:1.3rem}
+  .product .btn{margin-top:auto;text-align:center}
+  .about{background:var(--mist)}
+  .about p{max-width:38rem;margin-bottom:1rem}
+  footer{padding:2.5rem 0;font-size:.95rem;border-top:1px solid var(--line)}
+  footer p{max-width:44rem;margin-bottom:.6rem}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="#top">Curated Living Co.</a>
+    <nav aria-label="Main">
+      <a href="#guides">Guides</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <h1>Short guides for the parts of life no one explains.</h1>
+      <p>Practical digital guides you can read in an afternoon, on student mental health and on bringing home your first dog.</p>
+      <a class="btn" href="#guides">Browse the guides</a>
+    </div>
+  </div>
+
+  <section id="guides">
+    <div class="wrap">
+      <h2>Guides</h2>
+      <div class="products">
+
+        <article class="product">
+          <div class="cover mind" aria-hidden="true">Mental Health Guidance for College Students</div>
+          <div class="info">
+            <h3>Mental Health Guidance for Students Struggling in College</h3>
+            <p>A clear, kind guide for college students and the parents who support them: what to look out for, how to cope, and when to ask for help.</p>
+            <span class="price">$5.99</span>
+            
+            <a class="btn" href="https://payhip.com/b/Aic4R" target="_blank" rel="noopener">Buy on Payhip</a>
+          </div>
+        </article>
+
+        <article class="product">
+          <div class="cover dog" aria-hidden="true">First Time Dog Owner Guide</div>
+          <div class="info">
+            <h3>First Time Dog Owner Guide</h3>
+            <p>Everything you need for the first weeks with your dog: supplies, feeding, training basics, vet visits, and common mistakes to avoid.</p>
+            <span class="price">$3.99</span>
+            
+            <a class="btn" href="https://payhip.com/b/xiDap" target="_blank" rel="noopener">Buy on Payhip</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap">
+      <h2>About Curated Living Co.</h2>
+      <p>Curated Living Co. makes short, easy-to-follow digital guides. Each one is written to be useful on the first read, with no filler.</p>
+      <p>After you buy, Payhip emails your download straight away.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p>Questions about a guide or your order? Email <a href="mailto:shanilmavayil1899@gmail.com">shanilmavayil1899@gmail.com</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>The mental health guide is for general information and awareness. It is not medical advice and does not replace a doctor, counsellor, or therapist.</p>
+    <p>Purchases are handled securely by Payhip. &copy; 2026 Curated Living Co.</p>
+  </div>
+</footer>
+
+</body>
+</html>
